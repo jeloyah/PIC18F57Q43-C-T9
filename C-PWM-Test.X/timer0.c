@@ -18,7 +18,7 @@ void TIMER0_Initialize(void)
 }
 
 /* Timer0 Delay = 1 ms x Time */
-void TIMER0_Delay_ms(uint16_t Time)
+void TIMER0_Delay_ms(unsigned short Time)
 {
     /* Timer0 enabled; 16-bit */
 	T0CON0 |= 0x80;
