@@ -64,7 +64,7 @@
 void TIMER0_Initialize(void);
 void TIMER0_Start(void);
 void TIMER0_Stop(void);
-void TIMER0_Delay_ms(uint16_t Time);
+void TIMER0_Delay_ms(unsigned short Time);
 
 #ifdef	__cplusplus
 extern "C" {
